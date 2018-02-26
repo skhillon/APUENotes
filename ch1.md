@@ -1,7 +1,4 @@
 # Chapter 1: UNIX System Overview
-Notes from *Advanced Programming in the UNIX Environment, 3rd Edition by Stevens & Rago* taken by Sarthak Khillon.
-Definitions/keywords are provided in **bold type**, code/filepaths are `monospaced type`, and notes/other important information is stressed with *italics type*.
-
 ## 1.1 - Introduction
 - All Operating Systems (OS) provide services for programs they run.
 - Typical services include:
