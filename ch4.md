@@ -201,3 +201,9 @@ int ftruncate(int fd, off_t length);
 - If the previous size of the file was greater than `length` (truncating "within bounds"), then any data after offset `length` is no longer accessible.
 - If the previous filesize was less than `length`, then the file size will increase and any data between the old EOF and the new EOF is filled with `\0` bytes, creating a hole.
 
+## 4.14 - File Systems
+We can think of a disk drive being divided into multiple **partitions**, each containing a **file system**. See Figure 4.13 below:
+
+![**Figure 4.13**: Disk drive, partitions, and a file system](file_systems.gif)
+
+
