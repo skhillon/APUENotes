@@ -12,8 +12,10 @@ Definitions/keywords are provided in **bold type**, code/filepaths are `monospac
     - and many more!
 
 ## 1.2 - UNIX Architecture
-The following definitions describe Figure 1.1:
+The following definitions describe the figure below:
+
 ![**Figure 1.1**: Architecture of the UNIX OS](unix_architecture.gif)
+
 - **Operating System**: The software that controls the hardware resources of the computer and provides an environment under which programs can run. 
 - **Kernel**: The software part. Called the kernal (reference to nuts) because it's small and at the core of the environment.
 - **System Calls**: The interface (bridge) between programs and the kernal. 
